@@ -10,17 +10,17 @@ const Footer = () => {
 
   const quickLinks = [
     { label: "About", href: "about" },
-    { label: "Skills", href: "skills" },
-    { label: "Projects", href: "projects" },
+    { label: "Collections", href: "collections" },
+    { label: "Featured Work", href: "projects" },
     { label: "Testimonials", href: "testimonials" },
     { label: "Contact", href: "contact" }
   ];
 
   const socialLinks = [
-    { icon: Mail, href: "mailto:hello@yourname.com", label: "Email" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },    
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Twitter, href: "#", label: "Twitter" }
+    { icon: Mail, href: "mailto:hello@maryamibrahim.com", label: "Email" },
+    { icon: Linkedin, href: "#", label: "Instagram" },    
+    { icon: Github, href: "#", label: "Pinterest" },
+    { icon: Twitter, href: "#", label: "LinkedIn" }
   ];
 
   return (
@@ -31,11 +31,11 @@ const Footer = () => {
             {/* Brand */}
             <div className="md:col-span-2">
               <h3 className="font-bold text-xl text-gradient mb-4">
-                Digital Marketing & AI Solutions
+                Maryam Ibrahim Fashion House
               </h3>
               <p className="text-muted-foreground mb-6 max-w-md">
-                Transforming businesses through innovative AI-powered marketing strategies, 
-                modern web development, and data-driven solutions.
+                Creating timeless elegance through contemporary luxury fashion. 
+                Every piece is crafted with passion, precision, and an unwavering commitment to quality.
               </p>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => {
@@ -75,12 +75,12 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold mb-4">Services</h4>
               <ul className="space-y-3 text-sm text-muted-foreground">
-                <li>AI Marketing Automation</li>
-                <li>Web Development</li>
-                <li>SEO & Content Strategy</li>
-                <li>Conversion Optimization</li>
-                <li>Business Consulting</li>
-                <li>Growth Hacking</li>
+                <li>Evening Couture</li>
+                <li>Bridal Collections</li>
+                <li>Professional Wardrobe</li>
+                <li>Bespoke Design</li>
+                <li>Personal Styling</li>
+                <li>Alterations & Fittings</li>
               </ul>
             </div>
           </div>
@@ -90,13 +90,13 @@ const Footer = () => {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © {currentYear} Portfolio. All rights reserved.
+              © {currentYear} Maryam Ibrahim Fashion House. All rights reserved.
             </div>
             
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <span>Built with</span>
+              <span>Crafted with</span>
               <Heart className="h-4 w-4 text-red-500" />
-              <span>using React & Tailwind CSS</span>
+              <span>for discerning women worldwide</span>
             </div>
             
             <div className="flex space-x-6 text-sm">

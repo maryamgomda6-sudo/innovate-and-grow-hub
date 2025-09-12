@@ -23,8 +23,8 @@ const Navigation = () => {
 
   const navItems = [
     { label: "About", href: "about" },
-    { label: "Skills", href: "skills" },
-    { label: "Projects", href: "projects" },
+    { label: "Collections", href: "collections" },
+    { label: "Featured Work", href: "projects" },
     { label: "Testimonials", href: "testimonials" },
     { label: "Contact", href: "contact" }
   ];
@@ -40,7 +40,7 @@ const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="font-bold text-xl text-gradient hover:scale-105 transition-transform"
           >
-            Portfolio
+            Maryam Ibrahim
           </button>
 
           {/* Desktop Navigation */}
@@ -58,7 +58,7 @@ const Navigation = () => {
               onClick={() => scrollToSection("contact")}
               className="btn-hero text-sm px-6 py-2"
             >
-              Let's Talk
+              Book Consultation
             </Button>
           </div>
 
@@ -90,7 +90,7 @@ const Navigation = () => {
                   onClick={() => scrollToSection("contact")}
                   className="btn-hero w-full"
                 >
-                  Let's Talk
+                  Book Consultation
                 </Button>
               </div>
             </div>

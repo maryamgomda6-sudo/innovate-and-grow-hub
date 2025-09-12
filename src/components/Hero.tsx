@@ -18,22 +18,22 @@ const Hero = () => {
       <div className="container-custom text-center">
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           <h1 className="mb-6">
-            Transforming Businesses with{" "}
-            <span className="text-gradient">AI-Powered Marketing</span>{" "}
-            & Modern Web Solutions
+            Redefining Elegance with{" "}
+            <span className="text-gradient">Contemporary Fashion</span>{" "}
+            & Timeless Design
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
-            Digital marketing professional specializing in cutting-edge AI tools, 
-            results-driven strategies, and innovative web development for tech startups and agencies.
+            Luxury fashion designer creating bespoke pieces and contemporary collections 
+            for the modern woman who values sophistication, quality, and individuality.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button 
-              onClick={() => scrollToSection("projects")}
+              onClick={() => scrollToSection("collections")}
               className="btn-hero group"
             >
-              View My Work
+              View Collections
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
@@ -42,26 +42,26 @@ const Hero = () => {
               variant="outline"
               className="btn-secondary"
             >
-              Let's Connect
+              Book Consultation
             </Button>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">50+</div>
-              <div className="text-sm text-muted-foreground">Projects Delivered</div>
+              <div className="text-2xl font-bold text-primary">200+</div>
+              <div className="text-sm text-muted-foreground">Pieces Created</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">3+</div>
+              <div className="text-2xl font-bold text-primary">8+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">25+</div>
+              <div className="text-2xl font-bold text-primary">500+</div>
               <div className="text-sm text-muted-foreground">Happy Clients</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">100%</div>
-              <div className="text-sm text-muted-foreground">Satisfaction Rate</div>
+              <div className="text-2xl font-bold text-primary">15+</div>
+              <div className="text-sm text-muted-foreground">Fashion Shows</div>
             </div>
           </div>
         </div>

@@ -3,52 +3,52 @@ import { Star, Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Chen",
-      role: "CTO, TechFlow Solutions",
-      company: "Series A Startup",
+      name: "Isabella Rodriguez",
+      role: "Celebrity Stylist",
+      company: "A-List Entertainment",
       image: "/api/placeholder/80/80",
       rating: 5,
-      text: "Working with this talented professional was a game-changer for our marketing strategy. Their AI-powered automation system increased our lead quality by 200% while reducing our acquisition costs by 40%. The technical expertise combined with marketing acumen is rare to find."
+      text: "Maryam's designs are absolutely breathtaking. Her evening gowns have graced red carpets and award shows, making my clients feel like absolute royalty. The craftsmanship and attention to detail are unmatched in the industry."
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Founder & CEO",
-      company: "GrowthLab Agency", 
+      name: "Catherine Wells",
+      role: "Fortune 500 Executive",
+      company: "Global Tech Corporation", 
       image: "/api/placeholder/80/80",
       rating: 5,
-      text: "Exceptional work on our client dashboard project. The integration of multiple marketing platforms into one cohesive interface saved our team 15+ hours per week. The attention to detail and user experience design exceeded our expectations completely."
+      text: "My custom business wardrobe from Maryam Ibrahim has transformed how I present myself in the boardroom. The pieces are powerful yet feminine, giving me confidence in every important meeting. Worth every penny."
     },
     {
-      name: "Emily Watson",
-      role: "VP of Marketing",
-      company: "CloudScale Enterprise",
+      name: "Sophia Martinez",
+      role: "Bride",
+      company: "Dream Wedding Client",
       image: "/api/placeholder/80/80", 
       rating: 5,
-      text: "The landing page optimization project delivered remarkable results - 180% increase in conversions within 60 days. The combination of technical implementation and marketing psychology insights created a perfect storm for success. Highly recommended for any serious business."
+      text: "My wedding dress was a masterpiece. Maryam listened to every detail of my vision and created something even more beautiful than I imagined. I felt like a princess on the most important day of my life."
     },
     {
-      name: "David Park",
-      role: "Product Manager",
-      company: "InnovateAI Startup",
+      name: "Olivia Chen",
+      role: "Fashion Editor",
+      company: "Vogue Magazine",
       image: "/api/placeholder/80/80",
       rating: 5,
-      text: "Outstanding collaboration on our AI content platform. The architecture decisions and implementation quality were top-notch. What impressed me most was the ability to understand both the technical requirements and business objectives seamlessly."
+      text: "Maryam Ibrahim is one of the most talented designers I've worked with. Her collections consistently showcase innovation while maintaining timeless elegance. A true artist who understands the modern woman."
     },
     {
-      name: "Lisa Thompson",
-      role: "Head of Digital",
-      company: "BrandForward Agency",
+      name: "Amanda Thompson",
+      role: "Business Owner",
+      company: "Luxury Boutique",
       image: "/api/placeholder/80/80",
       rating: 5,
-      text: "Delivered a comprehensive marketing automation solution that transformed how we handle client campaigns. The ROI tracking and reporting features have become essential tools for our agency. Professional, reliable, and incredibly skilled."
+      text: "The ready-to-wear collection from Maryam is flying off our shelves. Our customers love the quality, fit, and sophisticated style. It's luxury fashion that women actually want to wear every day."
     },
     {
-      name: "Alex Kumar",
-      role: "Co-founder",
-      company: "DataDriven SaaS",
+      name: "Grace Williams",
+      role: "Social Media Influencer",
+      company: "Fashion & Lifestyle",
       image: "/api/placeholder/80/80",
       rating: 5,
-      text: "The growth hacking strategies and technical implementation helped us achieve product-market fit faster than we ever imagined. The data-driven approach to optimization and the custom analytics dashboard became our competitive advantage."
+      text: "Every piece I've worn from Maryam Ibrahim gets incredible engagement from my followers. The designs photograph beautifully and make me feel confident and elegant. My go-to designer for special events."
     }
   ];
 
@@ -57,11 +57,11 @@ const Testimonials = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="mb-6">
-            Trusted by <span className="text-gradient">Industry Leaders</span>
+            What Clients Say About <span className="text-gradient">Maryam Ibrahim</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Don't just take my word for it. Here's what clients and collaborators 
-            say about working with me on game-changing projects.
+            From red carpet moments to intimate celebrations, see how Maryam Ibrahim designs 
+            have made women feel confident, beautiful, and authentically themselves.
           </p>
         </div>
         
@@ -101,20 +101,20 @@ const Testimonials = () => {
         <div className="mt-16 text-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">98%</div>
+              <div className="text-3xl font-bold text-primary mb-2">100%</div>
               <div className="text-sm text-muted-foreground">Client Satisfaction</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">150%</div>
-              <div className="text-sm text-muted-foreground">Avg. ROI Increase</div>
+              <div className="text-3xl font-bold text-primary mb-2">500+</div>
+              <div className="text-sm text-muted-foreground">Custom Pieces</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">48hrs</div>
+              <div className="text-3xl font-bold text-primary mb-2">24hrs</div>
               <div className="text-sm text-muted-foreground">Response Time</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">25+</div>
-              <div className="text-sm text-muted-foreground">Long-term Partners</div>
+              <div className="text-3xl font-bold text-primary mb-2">8+</div>
+              <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
           </div>
         </div>

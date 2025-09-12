@@ -36,18 +36,18 @@ const Contact = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="mb-6">
-            Ready to <span className="text-gradient">Transform Your Business</span>?
+            Ready to Create Your <span className="text-gradient">Perfect Look</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Let's discuss how AI-powered solutions and strategic marketing can accelerate your growth. 
-            I'm always excited to collaborate on innovative projects.
+            Whether you need a custom evening gown, professional wardrobe, or the wedding dress of your dreams, 
+            let's bring your vision to life with exceptional craftsmanship and personalized service.
           </p>
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
           <div className="card-elevated">
-            <h3 className="text-2xl font-semibold mb-6">Send Me a Message</h3>
+            <h3 className="text-2xl font-semibold mb-6">Schedule a Consultation</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
@@ -78,14 +78,14 @@ const Contact = () => {
                     onChange={handleInputChange}
                     required
                     className="w-full"
-                    placeholder="your.email@company.com"
+                    placeholder="your.email@example.com"
                   />
                 </div>
               </div>
               
               <div>
                 <label htmlFor="company" className="block text-sm font-medium mb-2">
-                  Company/Organization
+                  Event/Occasion
                 </label>
                 <Input
                   id="company"
@@ -94,13 +94,13 @@ const Contact = () => {
                   value={formData.company}
                   onChange={handleInputChange}
                   className="w-full"
-                  placeholder="Your company name"
+                  placeholder="Wedding, gala, professional wardrobe, etc."
                 />
               </div>
               
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2">
-                  Project Details *
+                  Design Vision & Requirements *
                 </label>
                 <Textarea
                   id="message"
@@ -110,13 +110,13 @@ const Contact = () => {
                   required
                   rows={5}
                   className="w-full"
-                  placeholder="Tell me about your project, goals, and how I can help..."
+                  placeholder="Tell me about your style preferences, the occasion, timeline, and any specific requirements..."
                 />
               </div>
               
               <Button type="submit" className="btn-hero w-full">
                 <MessageCircle className="h-4 w-4 mr-2" />
-                Send Message
+                Book Consultation
               </Button>
             </form>
           </div>
@@ -124,7 +124,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="card-elevated">
-              <h3 className="text-2xl font-semibold mb-6">Get In Touch</h3>
+              <h3 className="text-2xl font-semibold mb-6">Atelier Information</h3>
               
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
@@ -133,8 +133,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <a href="mailto:hello@yourname.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      hello@yourname.com
+                    <a href="mailto:hello@maryamibrahim.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      hello@maryamibrahim.com
                     </a>
                   </div>
                 </div>
@@ -144,7 +144,7 @@ const Contact = () => {
                     <Phone className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <div className="font-semibold">Phone</div>
+                    <div className="font-semibold">Studio Phone</div>
                     <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
                       +1 (234) 567-8900
                     </a>
@@ -156,9 +156,9 @@ const Contact = () => {
                     <MapPin className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <div className="font-semibold">Location</div>
-                    <div className="text-muted-foreground">San Francisco, CA</div>
-                    <div className="text-sm text-muted-foreground">Open to remote collaboration worldwide</div>
+                    <div className="font-semibold">Atelier Location</div>
+                    <div className="text-muted-foreground">Beverly Hills, CA</div>
+                    <div className="text-sm text-muted-foreground">Private appointments & worldwide shipping</div>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ const Contact = () => {
             
             {/* Social Links */}
             <div className="card-elevated">
-              <h3 className="text-xl font-semibold mb-6">Connect With Me</h3>
+              <h3 className="text-xl font-semibold mb-6">Follow My Work</h3>
               
               <div className="grid grid-cols-2 gap-4">
                 <a href="#" className="flex items-center space-x-3 p-4 border rounded-xl hover:bg-muted/50 transition-colors">
@@ -175,29 +175,29 @@ const Contact = () => {
                 </a>
                 <a href="#" className="flex items-center space-x-3 p-4 border rounded-xl hover:bg-muted/50 transition-colors">
                   <Github className="h-5 w-5 text-primary" />
-                  <span className="font-medium">GitHub</span>
+                  <span className="font-medium">Instagram</span>
                 </a>
                 <a href="#" className="flex items-center space-x-3 p-4 border rounded-xl hover:bg-muted/50 transition-colors">
                   <Twitter className="h-5 w-5 text-primary" />
-                  <span className="font-medium">Twitter</span>
+                  <span className="font-medium">Pinterest</span>
                 </a>
                 <Button className="btn-ghost flex items-center space-x-3">
                   <Download className="h-4 w-4" />
-                  <span>Resume PDF</span>
+                  <span>Portfolio PDF</span>
                 </Button>
               </div>
             </div>
             
             {/* Availability */}
             <div className="card-elevated">
-              <h3 className="text-xl font-semibold mb-4">Current Availability</h3>
+              <h3 className="text-xl font-semibold mb-4">Booking Status</h3>
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-3 h-3 bg-accent rounded-full animate-pulse"></div>
-                <span className="font-medium text-accent">Available for new projects</span>
+                <span className="font-medium text-accent">Accepting new clients</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I typically respond to inquiries within 24 hours and can start new projects 
-                within 1-2 weeks depending on scope and complexity.
+                I typically respond to consultations within 24 hours. Custom pieces require 
+                4-8 weeks depending on complexity, with rush orders available for special occasions.
               </p>
             </div>
           </div>

@@ -7,31 +7,31 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="mb-6">
-              Bridging the Gap Between <span className="text-gradient">Innovation</span> and Results
+              Where <span className="text-gradient">Tradition</span> Meets Modern Elegance
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              My journey from marketing enthusiast to AI-powered business strategist
+              My journey from fashion student to internationally recognized designer
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed">
-                What started as a fascination with consumer psychology evolved into a passion for 
-                leveraging cutting-edge technology to solve real business challenges. Today, I specialize 
-                in creating AI-powered marketing solutions that don't just follow trends—they set them.
+                What began as childhood fascination with fabrics and form has blossomed into a luxury 
+                fashion house that celebrates the modern woman. My designs blend traditional craftsmanship 
+                with contemporary silhouettes, creating pieces that are both timeless and distinctly current.
               </p>
               
               <p className="text-lg leading-relaxed">
-                My unique blend of creative marketing insight and technical expertise allows me to 
-                build systems that scale, strategies that convert, and partnerships that last. 
-                I believe the best solutions emerge when human creativity meets artificial intelligence.
+                Each collection tells a story of empowerment, sophistication, and individuality. 
+                I believe fashion should make you feel confident and beautiful while reflecting your 
+                unique personality. Every stitch, every cut, every detail is carefully considered.
               </p>
               
               <p className="text-lg leading-relaxed">
-                When I'm not optimizing conversion funnels or training AI models, you'll find me 
-                exploring the latest web technologies, mentoring aspiring marketers, or collaborating 
-                with startup founders to bring their visions to life.
+                When I am not sketching new designs or selecting the finest fabrics, you will find me 
+                traveling the world for inspiration, mentoring young designers, or working closely 
+                with clients to create their perfect bespoke pieces.
               </p>
             </div>
             
@@ -42,10 +42,10 @@ const About = () => {
                     <Lightbulb className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Innovation First</h3>
+                    <h3 className="text-xl font-semibold mb-2">Creative Vision</h3>
                     <p className="text-muted-foreground">
-                      Always exploring emerging technologies to create competitive advantages 
-                      for my clients and partners.
+                      Every design begins with a vision of empowering women through 
+                      fashion that celebrates their strength and femininity.
                     </p>
                   </div>
                 </div>
@@ -57,10 +57,10 @@ const About = () => {
                     <Target className="h-6 w-6 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Results-Driven</h3>
+                    <h3 className="text-xl font-semibold mb-2">Quality Craftsmanship</h3>
                     <p className="text-muted-foreground">
-                      Every strategy is built with clear KPIs and measurable outcomes. 
-                      Success is quantified, not assumed.
+                      Only the finest materials and traditional techniques ensure 
+                      each piece meets the highest standards of luxury fashion.
                     </p>
                   </div>
                 </div>
@@ -72,10 +72,10 @@ const About = () => {
                     <Zap className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Rapid Execution</h3>
+                    <h3 className="text-xl font-semibold mb-2">Personal Service</h3>
                     <p className="text-muted-foreground">
-                      Fast-moving markets require agile solutions. I deliver quality work 
-                      at startup speed without compromising excellence.
+                      From initial consultation to final fitting, every client receives 
+                      personalized attention and bespoke service experience.
                     </p>
                   </div>
                 </div>

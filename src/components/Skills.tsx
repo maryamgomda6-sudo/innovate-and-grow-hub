@@ -1,118 +1,118 @@
-import { Brain, Code, TrendingUp, Palette, Database, Rocket } from "lucide-react";
+import { Scissors, Palette, Crown, Sparkles, Heart, Star } from "lucide-react";
 
-const Skills = () => {
-  const skillCategories = [
+const Collections = () => {
+  const collections = [
     {
-      icon: Brain,
-      title: "AI & Automation Tools",
-      description: "Leveraging cutting-edge AI for marketing automation and business intelligence",
-      skills: [
-        "ChatGPT & Claude Integration",
-        "Marketing Automation (HubSpot, Zapier)",
-        "Predictive Analytics",
-        "AI Content Generation",
-        "Machine Learning Models",
-        "Conversion Optimization AI"
+      icon: Crown,
+      title: "Evening Couture",
+      description: "Exquisite evening gowns and formal wear for life's most important moments",
+      items: [
+        "Red Carpet Gowns",
+        "Cocktail Dresses", 
+        "Formal Evening Wear",
+        "Award Show Pieces",
+        "Gala Collection",
+        "Black Tie Attire"
       ]
     },
     {
-      icon: Code,
-      title: "Web Development",
-      description: "Building responsive, performant web applications with modern technologies",
-      skills: [
-        "React & TypeScript",
-        "Next.js & Tailwind CSS",
-        "Node.js & Express",
-        "REST APIs & GraphQL",
-        "Database Design",
-        "Performance Optimization"
+      icon: Sparkles,
+      title: "Contemporary Ready-to-Wear",
+      description: "Modern, sophisticated pieces perfect for the professional woman",
+      items: [
+        "Business Suits",
+        "Day Dresses",
+        "Blouses & Tops",
+        "Tailored Trousers",
+        "Luxury Knitwear",
+        "Statement Jackets"
       ]
     },
     {
-      icon: TrendingUp,
-      title: "Digital Marketing",
-      description: "Data-driven strategies that convert prospects into loyal customers",
-      skills: [
-        "SEO & Content Strategy",
-        "PPC Campaign Management",
-        "Social Media Marketing",
-        "Email Marketing Automation",
-        "Conversion Rate Optimization",
-        "Analytics & Reporting"
+      icon: Heart,
+      title: "Bridal Collection",
+      description: "Romantic, timeless designs for the most special day of your life",
+      items: [
+        "Wedding Gowns",
+        "Bridal Separates",
+        "Reception Dresses",
+        "Bridal Accessories",
+        "Mother of the Bride",
+        "Bridesmaid Options"
       ]
     },
     {
       icon: Palette,
-      title: "Design & UX",
-      description: "Creating intuitive user experiences that drive engagement and conversions",
-      skills: [
-        "UI/UX Design Principles",
-        "Figma & Design Systems",
-        "User Journey Mapping",
-        "A/B Testing Design",
-        "Brand Identity",
-        "Responsive Design"
+      title: "Casual Luxury",
+      description: "Elevated everyday wear that brings sophistication to comfort",
+      items: [
+        "Designer Casual Wear",
+        "Weekend Collections",
+        "Luxury Loungewear",
+        "Travel Essentials",
+        "Resort Wear",
+        "Seasonal Capsules"
       ]
     },
     {
-      icon: Database,
-      title: "Data & Analytics",
-      description: "Transforming raw data into actionable insights for strategic decision-making",
-      skills: [
-        "Google Analytics 4",
-        "Google Tag Manager",
-        "Data Visualization",
-        "Customer Segmentation",
-        "Attribution Modeling",
-        "Performance Dashboards"
+      icon: Scissors,
+      title: "Bespoke Services",
+      description: "Completely custom designs tailored to your unique style and measurements",
+      items: [
+        "Personal Consultations",
+        "Custom Pattern Making",
+        "Fabric Selection",
+        "Multiple Fittings",
+        "Style Guidance",
+        "Wardrobe Planning"
       ]
     },
     {
-      icon: Rocket,
-      title: "Business Strategy",
-      description: "Aligning technology solutions with business objectives for sustainable growth",
-      skills: [
-        "Growth Hacking",
-        "Product-Market Fit",
-        "Go-to-Market Strategy",
-        "Competitive Analysis",
-        "ROI Optimization",
-        "Stakeholder Management"
+      icon: Star,
+      title: "Accessories & Details",
+      description: "Finishing touches that complete your look with signature elegance",
+      items: [
+        "Statement Jewelry",
+        "Luxury Handbags",
+        "Designer Scarves",
+        "Custom Belts",
+        "Evening Clutches",
+        "Seasonal Accessories"
       ]
     }
   ];
 
   return (
-    <section id="skills" className="section-padding">
+    <section id="collections" className="section-padding">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="mb-6">
-            Technical Expertise Meets <span className="text-gradient">Creative Vision</span>
+            Curated Collections for <span className="text-gradient">Every Occasion</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A comprehensive skill set that spans the entire digital ecosystem, from AI-powered 
-            automation to human-centered design principles.
+            From red carpet glamour to everyday elegance, each collection is designed 
+            to celebrate the multifaceted woman of today.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {skillCategories.map((category, index) => {
-            const IconComponent = category.icon;
+          {collections.map((collection, index) => {
+            const IconComponent = collection.icon;
             return (
               <div key={index} className="card-interactive">
                 <div className="mb-6">
                   <div className="p-4 bg-primary/10 rounded-2xl w-fit mb-4">
                     <IconComponent className="h-8 w-8 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-3">{category.title}</h3>
-                  <p className="text-muted-foreground mb-4">{category.description}</p>
+                  <h3 className="text-xl font-semibold mb-3">{collection.title}</h3>
+                  <p className="text-muted-foreground mb-4">{collection.description}</p>
                 </div>
                 
                 <div className="space-y-2">
-                  {category.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="flex items-center space-x-3">
+                  {collection.items.map((item, itemIndex) => (
+                    <div key={itemIndex} className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
-                      <span className="text-sm font-medium">{skill}</span>
+                      <span className="text-sm font-medium">{item}</span>
                     </div>
                   ))}
                 </div>
@@ -121,18 +121,18 @@ const Skills = () => {
           })}
         </div>
         
-        {/* Certifications & Tools */}
+        {/* Featured Brands & Materials */}
         <div className="mt-16 text-center">
-          <h3 className="text-2xl font-semibold mb-8">Trusted by Industry-Leading Tools</h3>
+          <h3 className="text-2xl font-semibold mb-8">Premium Materials & Partners</h3>
           <div className="flex flex-wrap justify-center gap-8 items-center opacity-60">
-            <div className="font-mono text-lg font-semibold">Google Analytics</div>
-            <div className="font-mono text-lg font-semibold">HubSpot</div>
-            <div className="font-mono text-lg font-semibold">OpenAI</div>
-            <div className="font-mono text-lg font-semibold">Vercel</div>
-            <div className="font-mono text-lg font-semibold">Figma</div>
-            <div className="font-mono text-lg font-semibold">Zapier</div>
-            <div className="font-mono text-lg font-semibold">Shopify</div>
-            <div className="font-mono text-lg font-semibold">WordPress</div>
+            <div className="font-mono text-lg font-semibold">Italian Silk</div>
+            <div className="font-mono text-lg font-semibold">French Lace</div>
+            <div className="font-mono text-lg font-semibold">Cashmere</div>
+            <div className="font-mono text-lg font-semibold">Swarovski</div>
+            <div className="font-mono text-lg font-semibold">Luxury Cotton</div>
+            <div className="font-mono text-lg font-semibold">Designer Fabrics</div>
+            <div className="font-mono text-lg font-semibold">Custom Embroidery</div>
+            <div className="font-mono text-lg font-semibold">Hand Beading</div>
           </div>
         </div>
       </div>
@@ -140,4 +140,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Collections;
